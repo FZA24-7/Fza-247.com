@@ -13,7 +13,7 @@ export default function Shell({children}){
   const t=setTimeout(()=>document.querySelectorAll('.rv').forEach(el=>o.observe(el)),50);return()=>{clearTimeout(t);o.disconnect()}},[path,intro]);
  return <>
   {intro&&<div className={'intro'+(out?' out':'')}><h1>FZA 24/7<i/></h1></div>}
-  <Contours/><div className="grid"/><div className="glow"/><div className="hx"/><div className="vx"/>
+  <Contours/><div className="cols"/><div className="grid"/><div className="glow"/><div className="hx"/><div className="vx"/>
   <div className={'cur'+(hv?' big':'')} style={{transform:`translate(${xy[0]}px,${xy[1]}px)`}}/><div className="coord" style={{transform:`translate(${xy[0]+14}px,${xy[1]+14}px)`}}>X {String(xy[0]).padStart(4,'0')} · Y {String(xy[1]).padStart(4,'0')}</div>
   <div className="prog" style={{width:sc+'%'}}><b>{sc}%</b></div>
   <header className="nav"><Link href="/" className="logo"><img src="/logo.png" alt="" onError={e=>e.currentTarget.style.display='none'}/><b>FZA 24/7</b><span>/ AI AGENCY</span></Link>

@@ -1,0 +1,13 @@
+{"site":{"tagline":"We build. 24/7.","sub":"AI, software, apps & dashboards that solve real business problems and grow your sales.","email":"hello@fza247.com"},
+"founder":{"name":"Founder Name","role":"Founder, FZA 24/7","bio":"Edit this bio from the dashboard.","linkedin":"https://linkedin.com/in/","image":"/founder.png"},
+"ceo":{"name":"CEO Name","role":"CEO, FZA 24/7","bio":"Edit this bio from the dashboard.","linkedin":"https://linkedin.com/in/","image":"/ceo.png"},
+"team":[{"name":"Team Member","role":"Software Developer","bio":"Short description.","linkedin":"https://linkedin.com/in/","image":"/team.png"},{"name":"Team Member","role":"Mobile App Developer","bio":"Short description.","linkedin":"https://linkedin.com/in/","image":"/team.png"}],
+"services":[
+{"slug":"fza-ai-tutor","name":"FZA-AI-Tutor","tag":"AI · EDUCATION","summary":"An AI tutor that teaches, explains and adapts to every learner.","features":["Personalised learning","Instant answers","Progress tracking"]},
+{"slug":"fza-claude-application","name":"FZA-claude-application","tag":"AI · APPLICATION","summary":"A custom Claude-powered application built around your workflow.","features":["Tailored assistant","Secure integration","Fast deployment"]},
+{"slug":"fza-omniverse","name":"FZA-Omniverse (AIO)","tag":"AI · ALL-IN-ONE","summary":"One platform that brings your tools, data and AI together.","features":["All-in-one workspace","Automation","Unified insights"]},
+{"slug":"fza-dukan-ai","name":"FZA-Dukan-ai","tag":"AI · RETAIL","summary":"AI for shopkeepers to manage, sell and grow with confidence.","features":["Smart inventory","Sales insights","Easy to use"]},
+{"slug":"fza-forex-dashboard","name":"fza-forex Dashboard","tag":"DASHBOARD · FINANCE","summary":"A live forex dashboard for clear, fast market decisions.","features":["Live data","Clean charts","Custom views"]},
+{"slug":"fza-psx-dashboard","name":"FZA-psx dashboard","tag":"DASHBOARD · MARKETS","summary":"A PSX dashboard to track and analyse the market in one place.","features":["Market tracking","Analytics","Custom watchlists"]},
+{"slug":"fza-shopflow-ai","name":"FZA-Shopflow ai","tag":"AI · COMMERCE","summary":"AI-powered shop flow that turns visitors into customers.","features":["Smart checkout flow","Automation","Sales growth"]},
+{"slug":"fza-retailflow-pos","name":"FZA-RetailFlow Point Of Sale","tag":"SOFTWARE · POS","summary":"A fast, reliable point-of-sale system for modern retail.","features":["Quick billing","Stock control","Sales reports"]}]}

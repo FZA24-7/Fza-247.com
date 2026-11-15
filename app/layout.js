@@ -1,35 +1,15 @@
-import Script from "next/script";
-import "./globals.css";
-import Shell from "@/components/Shell";
+import './globals.css';
+import Shell from '@/components/Shell';
+import Script from 'next/script';
 
-export const metadata = {
-  metadataBase: new URL(
-    process.env.SITE_URL || "http://localhost:3000"
-  ),
-  title: {
-    default: "FZA 24/7 — AI Agency",
-    template: "%s | FZA 24/7",
-  },
-  description:
-    "FZA 24/7 builds AI products, software, mobile apps and dashboards that solve business problems and grow sales.",
-  openGraph: {
-    title: "FZA 24/7",
-    type: "website",
-  },
-};
+// ...your metadata stays the same...
 
-export default function RootLayout({ children }) {
+export default function L({children}){
   return (
     <html lang="en">
       <body>
         <Shell>{children}</Shell>
-
-        {/* FZA 24/7 - Tidio AI Chat Widget */}
-        <Script
-          id="tidio-chat-widget"
-          src="https://code.tidio.co/upoae8g6velgdjuauaublkl2ufbc1553.js"
-          strategy="afterInteractive"
-        />
+        <script src="//code.tidio.co/upoae8g6ve1gdjuauabu1kl2ufbc1553.js" async></script>
       </body>
     </html>
   );

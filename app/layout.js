@@ -13,6 +13,7 @@ export default function L({ children }) {
           src="https://tidio.co" 
           strategy="lazyOnload" 
         />
+            <script src="//code.tidio.co/upoae8g6ve1gdjuauabu1kl2ufbc1553.js" async></script>
       </body>
     </html>
   );
